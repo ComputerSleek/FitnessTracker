@@ -1,26 +1,19 @@
 {
-  "name": "FitnessTracker",
+  "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "A fitness tracker app that uses Mongo and Mongoose functionality with Express routes.",
-  "main": "index.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.12.7",
-    "morgan": "^1.10.0"
-  },
-  "devDependencies": {},
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ComputerSleek/FitnessTracker.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ComputerSleek/FitnessTracker/issues"
-  },
-  "homepage": "https://github.com/ComputerSleek/FitnessTracker#readme"
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1"
+  }
 }
