@@ -14,3 +14,10 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 
 A consumer will reach their fitness goals more quickly when they track their workout progress.
 
+## Link
+
+https://github.com/ComputerSleek/FitnessTracker
+
+## Screenshot
+
+![Alt text](ft.png?raw=true "Screenshot")
